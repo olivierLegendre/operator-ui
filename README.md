@@ -1,9 +1,30 @@
 # operator-ui
 
-Repository bootstrapped from `plateform-meta-iot/scripts/bootstrap_local_repos.sh`.
+Vue 3 + Vite operator dashboard for Wave 5 workflows.
 
-## Next Steps
+## Scope
 
-1. Add remote origin.
-2. Configure branch protection and required checks.
-3. Add service-specific CI and code scaffolding.
+- Approval flow screens
+- Incident feed screens
+- Reissue workflow screens
+- Governance/SLA overview screens
+
+All data access is API-only (no direct SQL).
+
+## Requirements
+
+- Node.js >= 20
+
+## Local setup
+
+```bash
+./scripts/setup_dev.sh
+npm run dev
+```
+
+## Quality checks
+
+```bash
+npm run typecheck
+npm run build
+```
