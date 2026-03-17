@@ -6,10 +6,10 @@
       <thead><tr><th>Incident</th><th>Site</th><th>Severity</th><th>Reason</th><th>Created</th></tr></thead>
       <tbody>
         <tr v-if="items.length === 0"><td colspan="5">No incidents.</td></tr>
-        <tr v-for="item in items" :key="item.incidentId">
-          <td>{{ item.incidentId }}</td><td>{{ item.siteId }}</td>
+        <tr v-for="item in items" :key="item.event_id">
+          <td>{{ item.event_id }}</td><td>{{ item.site_id }}</td>
           <td><span :class="item.severity === 'critical' ? 'badge badge-danger' : 'badge'">{{ item.severity }}</span></td>
-          <td>{{ item.reason }}</td><td>{{ item.createdAt }}</td>
+          <td>{{ item.reason }}</td><td>{{ item.created_at }}</td>
         </tr>
       </tbody>
     </table>
