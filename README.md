@@ -81,3 +81,7 @@ npm run dev
 npm run typecheck
 npm run build
 ```
+
+## Operations Runbook
+
+- `docs/runbooks/incident-rollback-recovery.md`
