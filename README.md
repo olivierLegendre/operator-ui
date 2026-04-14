@@ -1,6 +1,6 @@
 # operator-ui
 
-Vue 3 + Vite operator dashboard for Wave 5 workflows.
+React + React Router + Vite operator dashboard for Wave 5 workflows.
 
 ## Scope
 

@@ -35,6 +35,15 @@ p { color: var(--muted); }
 }
 
 .nav { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+.nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav a.active {
+  color: var(--text);
+  text-decoration: underline;
+}
 
 .table { width: 100%; border-collapse: collapse; }
 .table th, .table td { text-align: left; padding: 10px; border-bottom: 1px solid #e5ebf5; }
